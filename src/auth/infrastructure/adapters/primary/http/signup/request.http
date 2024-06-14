@@ -1,0 +1,8 @@
+
+POST http://{{host}}/api/{{version}}/auth/signup HTTP/1.1
+Content-Type: {{contentType}}
+
+{
+    "email": "dsanchez@academialean.com",
+    "password": "dsanchez600515"
+}
